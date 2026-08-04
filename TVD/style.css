@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: black;
+    padding: 0;
+
+      }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10 px;
+
+}
+
+li{
+    list-style: none;
+    gap: 15px;
+}
+
+a{
+    color: #BC1D1D;
+    text-decoration: none;
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    padding: 8px 20px;
+
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+}
+
+
+.menu, li{
+    margin-left: 10px;
+}
+
+ 
+ .cards{
+     display: flex;
+     margin-top: 30px;
+     gap: 130px;
+     padding-bottom: 30px;
+ }
+ 
+ .card1{
+    align-items: start;
+    justify-content: left;
+     border: 15px solid;
+     color: black;
+ 
+ }
+ 
+ .card2{
+    align-items: end;
+    justify-content: end;
+     border: 15px solid;
+     color: black;
+ 
+ }
+ 
+ img{
+    border-radius: 15px;
+    margin-bottom: -4px;    
+ }
+ 
+ footer{
+     padding: 1px 8px;
+     background-color: #BC1D1D;
+ }
+ 

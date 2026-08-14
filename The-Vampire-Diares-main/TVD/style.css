@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: black;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+      }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10 px;
+
+}
+
+li{
+    list-style: none;
+    gap: 15px;
+}
+
+a{
+    color: #BC1D1D;
+    text-decoration: none;
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 8px 20px;
+
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+}
+
+
+.menu, li{
+    margin-left: 10px;
+}
+
+ 
+ .cards{
+     display: flex;
+     margin-top: 30px;
+     gap: 130px;
+
+ }
+ 
+ .card1{
+    align-items: start;
+    justify-content: left;
+ 
+ }
+ 
+ .card2{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+     margin-top: auto;
+     box-sizing: border-box;
+     position: absolute;
+     padding-left: 670px;
+     right: 0;                 
+     bottom: 29px;
+
+ }
+ 
+ img{
+    border-radius: 15px;
+    margin-bottom: -4px;    
+ }
+ 
+ footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 20px 8px;
+    background-color: #BC1D1D;
+    width: 100%;
+    box-sizing: border-box;  
+    height: 22px;
+ }
+
+ .placa{
+    display: flex;
+    padding-left: 20px;
+    padding-top: 60px;
+ }
+ 

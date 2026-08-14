@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: black;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10 px;
+
+}
+
+li{
+    list-style: none;
+    gap: 15px;
+}
+
+a{
+    color: #BC1D1D;
+    text-decoration: none;
+    font-family: "Aguafina Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 8px 20px;
+
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+}
+
+
+.menu, li{
+    margin-left: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: left;
+    color: white;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px;
+    font-size: 50px;
+
+}
+
+.tela{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.esquerda{
+    width: 50%;
+}
+
+.esquerda p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "Agdasima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+}
+
+
